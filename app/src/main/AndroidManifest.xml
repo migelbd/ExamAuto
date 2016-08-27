@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.rastaapps.examauto">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".Helper"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MasterActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ExActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"></activity>
+
+        <receiver android:name=".SecretCode">
+            <intent-filter>
+                <action android:name="android.provider.Telephony.SECRET_CODE" />
+
+                <data
+                    android:host="2705"
+                    android:scheme="android_secret_code" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ErrorsActivity"></activity>
+    </application>
+
+</manifest>
