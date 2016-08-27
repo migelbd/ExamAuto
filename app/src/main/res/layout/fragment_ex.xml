@@ -1,0 +1,83 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frLay"
+    tools:context="ru.rastaapps.examauto.ExFragment">
+<LinearLayout
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/adLin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent" android:id="@+id/mLin"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/info_disp"
+            android:id="@+id/tvInfoExam"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center_horizontal"
+            android:padding="5dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/tx_blank"
+                android:id="@+id/txBlank"
+                android:paddingRight="10dp" />
+
+            <Spinner
+                android:id="@+id/toolSpinner"
+
+
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"></Spinner>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bStartExam"
+            android:id="@+id/btnStartExam"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_nav"
+            android:padding="5dp"
+            style="@style/BtnStandart"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bMix"
+            android:id="@+id/btnMix"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_nav"
+            android:padding="5dp"
+            style="@style/BtnStandart"
+            android:layout_margin="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+</FrameLayout>

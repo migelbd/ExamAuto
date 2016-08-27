@@ -1,0 +1,69 @@
+<resources>
+    <string name="ad_unit_id" translatable="false">ca-app-pub-8490617690967074/8491129740</string>
+    <string name="app_name">Симулятор Экзамена</string>
+    <string name="action_settings">Настройки</string>
+    <string name="btnConfirm">Подтвердить</string>
+    <string name="btnSkip">Пропустить</string>
+    <string name="i_BadAns">Ошибки:</string>
+    <string name="i_GoodAns">Правильно:</string>
+    <string name="i_Questions">Вопрос:</string>
+    <string name="title_activity_exam">Симулятор Экзамена</string>
+    <string name="dg_Err">Ошибка</string>
+    <string name="dg_win">Вы успешно сдали экзамен.</string>
+    <string name="dg_lose">Вы не сдали экзамен.</string>
+    <string name="dgt_win">Хорошо</string>
+    <string name="dgt_lose">Плохо</string>
+    <string name="dgt_nosel">Ничего не выбрано</string>
+    <string name="dg_nosel">Пожалуйста, выберите один из вариантов</string>
+    <string name="title_activity_master">Экзамен ПДД</string>
+    <string name="bStartExam">Начать</string>
+    <string name="tab_exam">Экзамен</string>
+    <string name="tab_rules">Правила ПДД</string>
+    <string name="tx_blank">Выберите билет перед началом</string>
+    <string name="info_disp">Данная имитация предназначена для контроля и усовершенствования знаний, приобретённых на курсах подготовки водителей, либо при самостоятельном изучении.</string>
+    <string name="bMix">Микс</string>
+    <string-array name="blanks">
+        <item>Билет 1</item>
+        <item>Билет 2</item>
+        <item>Билет 3</item>
+        <item>Билет 4</item>
+        <item>Билет 5</item>
+        <item>Билет 6</item>
+        <item>Билет 7</item>
+        <item>Билет 8</item>
+        <item>Билет 9</item>
+        <item>Билет 10</item>
+        <item>Билет 11</item>
+        <item>Билет 12</item>
+        <item>Билет 13</item>
+        <item>Билет 14</item>
+        <item>Билет 15</item>
+        <item>Билет 16</item>
+        <item>Билет 17</item>
+        <item>Билет 18</item>
+        <item>Билет 19</item>
+        <item>Билет 20</item>
+        <item>Билет 21</item>
+        <item>Билет 22</item>
+        <item>Билет 23</item>
+        <item>Билет 24</item>
+        <item>Билет 25</item>
+        <item>Билет 26</item>
+        <item>Билет 27</item>
+        <item>Билет 28</item>
+        <item>Билет 29</item>
+        <item>Билет 30</item>
+        <item>Билет 31</item>
+        <item>Билет 32</item>
+        <item>Билет 33</item>
+        <item>Билет 34</item>
+        <item>Билет 35</item>
+
+    </string-array>
+    <string name="dg_ok">Хорошо</string>
+    <string name="dg_titl_wrong">Упс..</string>
+    <string name="dg_wrong_tiket">Этот билет еще недоступен, выберите другой пожалуйста.</string>
+    <string name="toast_empty">К сожалению настройки не работают.</string>
+    <string name="ticket_s">Билет</string>
+    <string name="next_ver">Продолжение в следующей версии</string>
+</resources>
